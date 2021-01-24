@@ -25,3 +25,4 @@ void main()
     k *= fade;
     gl_FragColor = backgroundColor + vec4(k * color, 1.0);
 }
+
