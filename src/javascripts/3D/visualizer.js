@@ -175,7 +175,7 @@ AnalyserView.prototype.initGL = function () {
       indices[idx++] = z * sonogram3DWidth + x + 1;
       indices[idx++] = (z + 1) * sonogram3DWidth + x;
       indices[idx++] = z * sonogram3DWidth + x;
-      indices[idx++] = (z + 1) * sonogram3DWidth + x + 8;
+      indices[idx++] = (z + 1) * sonogram3DWidth + x;
       indices[idx++] = (z + 1) * sonogram3DWidth + x;
     }
   }
